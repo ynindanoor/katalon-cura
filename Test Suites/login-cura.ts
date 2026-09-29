@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>login-cura</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <maxConcurrentInstances>1</maxConcurrentInstances>
+   <numberOfRerun>0</numberOfRerun>
+   <orchestration>CLASSIC</orchestration>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>69e486c6-9fd5-4e0a-9d42-f3ce3e30a251</testSuiteGuid>
+   <testCaseLink>
+      <guid>c7194724-fbd0-4bf1-95a8-70d4a73207ea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/login-cura</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b051f0fc-6ceb-4d30-9b4f-f108cfeb2773</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/login-db-cura</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b051f0fc-6ceb-4d30-9b4f-f108cfeb2773</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testType</value>
+         <variableId>867915b4-e96a-40f1-8a45-776fa45c2b72</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b051f0fc-6ceb-4d30-9b4f-f108cfeb2773</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>3c90c67e-492c-444e-95a5-7676c0e07867</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b051f0fc-6ceb-4d30-9b4f-f108cfeb2773</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>72bbd99f-091f-4390-bf77-3cd92b07b5fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b051f0fc-6ceb-4d30-9b4f-f108cfeb2773</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected</value>
+         <variableId>b0382b8f-9b92-4e71-a4a3-98af78055b57</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

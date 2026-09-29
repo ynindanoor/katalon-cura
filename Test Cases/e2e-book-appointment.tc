@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>e2e-book-appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4fdb768d-d573-4b82-ad34-30d4e666ac13</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>867915b4-e96a-40f1-8a45-776fa45c2b72</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c90c67e-492c-444e-95a5-7676c0e07867</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>72bbd99f-091f-4390-bf77-3cd92b07b5fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b0382b8f-9b92-4e71-a4a3-98af78055b57</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'P'</defaultValue>
+      <description></description>
+      <id>867915b4-e96a-40f1-8a45-776fa45c2b72</id>
+      <masked>false</masked>
+      <name>testType</name>
+   </variable>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>3c90c67e-492c-444e-95a5-7676c0e07867</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'ThisIsNotAPassword'</defaultValue>
+      <description></description>
+      <id>72bbd99f-091f-4390-bf77-3cd92b07b5fa</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Login failed! Please ensure the username and password are valid.'</defaultValue>
+      <description></description>
+      <id>b0382b8f-9b92-4e71-a4a3-98af78055b57</id>
+      <masked>false</masked>
+      <name>expected</name>
+   </variable>
+</TestCaseEntity>
